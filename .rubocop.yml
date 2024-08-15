@@ -1,0 +1,13 @@
+require:
+  - rubocop-performance
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+  Exclude:
+    # auto-generated binstubs
+    - 'bin/*'
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
