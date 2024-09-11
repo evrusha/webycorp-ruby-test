@@ -30,6 +30,7 @@ class Application
 
     # Require application dependencies in the right sequence
     def require_app
+      require_dir 'app/lib/fake_store_api_service/resource'
       require_dir 'app/lib'
       require_dir 'app'
       require_file 'config/initializers/logger'
