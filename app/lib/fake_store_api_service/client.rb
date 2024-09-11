@@ -8,6 +8,9 @@ module FakeStoreApiService
   # The `get` method is used to send GET requests to the specified URL.
   # It logs the request and response status and handles any errors that occur during the request.
   class Client
+    include Resource::Carts
+    include Resource::Users
+    include Resource::Products
 
     BASE_URL = 'https://fakestoreapi.com'
 
