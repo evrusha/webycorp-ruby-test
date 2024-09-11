@@ -17,8 +17,11 @@ gem 'config', '~> 3.1'
 gem 'faraday', '~> 1.8'
 gem 'faraday_middleware', '~> 1.2'
 
+gem 'stripe', '~> 12.5'
+
 group :test do
   gem 'rspec', '~> 3.10'
   gem 'simplecov', '~> 0.21.2', require: false
   gem 'vcr', '~> 6.0'
+  gem 'webmock', '~> 3.23', '>= 3.23.1'
 end

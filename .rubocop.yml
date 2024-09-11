@@ -11,3 +11,9 @@ AllCops:
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
+
+Metrics/MethodLength:
+  Max: 20
+
+RSpec/VerifiedDoubles:
+  Enabled: False
